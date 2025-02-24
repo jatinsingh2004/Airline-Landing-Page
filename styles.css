@@ -748,3 +748,18 @@
           .header__btns {
             justify-content: flex-start;
           }
+
+          .header__image {
+            grid-column: 4/8;
+            position: relative;
+            isolation: isolate;
+            height: 100%;
+          }
+        
+          .header__image img {
+            position: absolute;
+            top: 2rem;
+            left: 0;
+            height: 100%;
+            width: unset;
+          }
