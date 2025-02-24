@@ -600,3 +600,26 @@
   .footer__links a span {
     font-size: 1.25rem;
   }
+
+  .footer__col form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .footer__col input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: var(--white);
+    border: 1px solid var(--text-light);
+    border-radius: 5px;
+  }
+  
+  .footer__col input::placeholder {
+    color: var(--text-light);
+  }
+  
+  .footer__col .btn {
+    border-radius: 5px;
+  }
+  
