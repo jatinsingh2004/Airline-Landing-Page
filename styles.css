@@ -538,3 +538,18 @@
     color: var(--extra-light);
   }
   
+
+  footer {
+    background-color: var(--extra-light);
+  }
+  
+  .footer__container {
+    display: grid;
+    gap: 4rem 2rem;
+  }
+  
+  .footer__col p {
+    max-width: 300px;
+    margin-block: 2rem;
+    color: var(--text-light);
+  }
