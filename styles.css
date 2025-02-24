@@ -460,3 +460,17 @@
     font-weight: 700;
     color: var(--text-dark);
   }
+
+
+  .destination__card p {
+    color: var(--text-light);
+  }
+  
+  .swiper {
+    margin-top: 4rem;
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    min-width: 375px;
+  }
