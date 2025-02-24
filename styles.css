@@ -56,3 +56,34 @@
   .btn:hover {
     background-color: var(--primary-color-dark);
   }
+
+
+  .logo {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--text-dark);
+  }
+  
+  img {
+    display: flex;
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "DM Sans", sans-serif;
+  }
+  
