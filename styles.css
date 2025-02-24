@@ -630,3 +630,17 @@
     color: var(--text-light);
     text-align: center;
   }
+
+  @media (width > 540px) {
+    .destination__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .journey__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .showcase__container {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
