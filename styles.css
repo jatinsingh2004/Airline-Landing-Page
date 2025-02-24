@@ -474,3 +474,22 @@
   .swiper-slide {
     min-width: 375px;
   }
+
+
+  .client__card {
+    padding: 5px;
+    background-color: var(--extra-light);
+    border-radius: 1rem;
+    transition: 0.3s;
+  }
+  
+  .client__card:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .client__content {
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: calc(1rem - 5px);
+  }
+  
