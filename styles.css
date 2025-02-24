@@ -800,3 +800,14 @@
     grid-area: unset;
   }
 }
+
+
+@media (width > 1200px) {
+    .header__content {
+      padding-inline: 1rem 0;
+    }
+  
+    .destination__grid {
+      gap: 2rem;
+    }
+  }
