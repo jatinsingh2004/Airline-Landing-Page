@@ -723,3 +723,28 @@
             background-color: var(--text-dark);
           }
         
+
+
+          header {
+            margin-top: 0;
+          }
+        
+          .header__container {
+            grid-template-columns:
+              minmax(0, 1fr)
+              repeat(5, minmax(0, calc(var(--max-width) / 5)))
+              minmax(0, 1fr);
+          }
+        
+          .header__content {
+            grid-column: 2/4;
+            padding-block: 8rem;
+          }
+        
+          .header__content :is(p, h1) {
+            text-align: left;
+          }
+        
+          .header__btns {
+            justify-content: flex-start;
+          }
