@@ -235,3 +235,29 @@
     background-color: var(--primary-color);
   }
   
+
+
+  .destination__container :is(.section__header, .section__description) {
+    text-align: left;
+    margin-inline-start: unset;
+  }
+  
+  .destination__grid {
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem 1rem;
+  }
+  
+  .destination__card img {
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .destination__card__details {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
