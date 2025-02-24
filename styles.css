@@ -710,3 +710,16 @@
           .nav__links li:last-child {
             display: none;
           }
+
+
+          .nav__btns {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+          }
+        
+          .nav__btns button {
+            padding: 0.75rem 2rem;
+            background-color: var(--text-dark);
+          }
+        
