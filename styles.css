@@ -514,3 +514,27 @@
   max-width: 50px;
   border-radius: 100%;
 }
+
+
+.client__details h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+  }
+  
+  .client__card:hover h4 {
+    color: var(--white);
+  }
+  
+  .client__details h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-light);
+    transition: 0.3s;
+  }
+  
+  .client__card:hover h5 {
+    color: var(--extra-light);
+  }
+  
