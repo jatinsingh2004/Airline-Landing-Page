@@ -283,3 +283,28 @@
     border-radius: 1rem;
     transition: 0.3s;
   }
+
+
+  .destination__card:hover .destination__rating {
+    background-color: var(--primary-color-dark);
+  }
+  
+  .journey__grid {
+    margin-top: 2rem;
+    display: grid;
+    gap: 0 1rem;
+  }
+  
+  .journey__card {
+    position: relative;
+    isolation: isolate;
+    padding-top: 4rem;
+    overflow: hidden;
+  }
+  
+  .journey__card__bg {
+    padding: 2rem;
+    background-color: var(--extra-light);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
