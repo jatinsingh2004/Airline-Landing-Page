@@ -180,3 +180,31 @@
     border-radius: 3rem;
     z-index: -1;
   }
+
+
+
+  .header__container {
+    display: grid;
+  }
+  
+  .header__content {
+    padding: 4rem 1rem;
+  }
+  
+  .header__content p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+  }
+  
+  .header__content h1 {
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    line-height: 5.5rem;
+    text-align: center;
+  }
+  
