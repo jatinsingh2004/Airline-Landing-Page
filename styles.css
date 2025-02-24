@@ -336,3 +336,66 @@
     transition: 0.3s;
   }
   
+
+  .journey__card:hover .journey__card__content {
+    top: 0;
+  }
+  
+  .journey__card__content span {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 7px 9px;
+    font-size: 1rem;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+  }
+  
+  .journey__card__content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+  
+  .journey__card__content p {
+    color: var(--extra-light);
+  }
+
+
+  .showcase__container {
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+  }
+  
+  .showcase__image img {
+    max-width: 400px;
+    margin-inline: auto;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .showcase__content h4 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .showcase__content p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .showcase__content .btn {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    background-image: url("assets/header-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
