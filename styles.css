@@ -117,3 +117,37 @@
     color: var(--white);
     cursor: pointer;
   }
+
+
+
+
+  .nav__links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--primary-color);
+    transition: transform 0.5s;
+    z-index: -1;
+  }
+  
+  .nav__links.open {
+    transform: translateY(100%);
+  }
+  
+  .nav__links a {
+    font-weight: 600;
+    color: var(--white);
+    white-space: nowrap;
+  }
+  
+  .nav__links a:hover {
+    color: var(--text-dark);
+  }
+  
