@@ -763,3 +763,21 @@
             height: 100%;
             width: unset;
           }
+
+
+          
+  .destination__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .journey__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .showcase__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .showcase__content {
+    grid-column: 2/4;
+  }
